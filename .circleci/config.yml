@@ -3,11 +3,12 @@ version: 2.1
 orbs:
   docker: circleci/docker@2.4.0
   azure-aks: circleci/azure-aks@0.3.0
-  kubernetes: circleci/kubernetes@1.3.0
+  kubernetes: circleci/kubernetes@1.3.1
 
 jobs:
   aks-deploy:
-    executor: azure-aks/default
+    docker:
+      - image: cimg/base:current
     parameters:
       cluster-name:
         description: |
@@ -33,7 +34,7 @@ jobs:
 
   bump-docker-tag-kustomize:
     docker:
-      - image: cimg/base:stable
+      - image: cimg/base:current
     steps:
       - run:
           name: Install kustomize
