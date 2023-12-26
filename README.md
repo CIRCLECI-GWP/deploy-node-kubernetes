@@ -1,6 +1,6 @@
 # Deploy Nodejs application on Azure Kubernetes Service with CircleCI
 
-[![CircleCI](https://circleci.com/gh/CIRCLECI-GWP/nodejs-aks-deploy.svg?style=svg)](https://github.com/CIRCLECI-GWP/nodejs-aks-deploy)
+[![CircleCI](https://circleci.com/gh/CIRCLECI-GWP/deploy-node-kubernetes.svg?style=svg)](https://github.com/CIRCLECI-GWP/deploy-node-kubernetes)
 
 <p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
@@ -9,9 +9,9 @@
 run the following command on your terminal to clone the repository:
 
 ```bash
-git clone git@github.com:CIRCLECI-GWP/nodejs-aks-deploy.git
+git clone https://github.com/CIRCLECI-GWP/deploy-node-kubernetes.git
 
-cd nodejs-aks-deploy
+cd deploy-node-kubernetes
 ```
 
 ## Install the dependencies
