@@ -8,4 +8,4 @@ namespace: nodejs
 images:
 - name: nodejs-aks-app
   newName: yemiwebby/nodejs-aks-app
-  newTag: e92ad85dc6c86d1a9ccbb2fc92d52240be2fe53a
+  newTag: 7b4dd95638614bfb1fe0b1e729f3817a06363be6
