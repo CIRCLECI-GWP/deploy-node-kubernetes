@@ -55,7 +55,7 @@ jobs:
           fingerprints:
             - "$SSH_FINGERPRINT"
       - run:
-          name: Commit & Push to GitHub
+          name: Commit & Push to GitHub.
           command: |
             git config user.email "$GITHUB_EMAIL"
             git config user.name "CircleCI User"
